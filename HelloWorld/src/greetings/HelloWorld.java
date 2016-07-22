@@ -5,7 +5,7 @@ public class HelloWorld
 
 	public static void main(String[] args) 
 	{
-		String message = "Hello world";
+		int numberOne = 1, numberSeven = 7;
 	}
 
 }
