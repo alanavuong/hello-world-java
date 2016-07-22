@@ -5,7 +5,8 @@ public class HelloWorld
 
 	public static void main(String[] args) 
 	{
-		int number =3, otherNumber = 7;
+		String message = "Hello world";
+		System.out.println("Hello world");
 	}
 
 }
