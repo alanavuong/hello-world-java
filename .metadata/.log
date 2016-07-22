@@ -123,3 +123,40 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !MESSAGE From: artificial_root 1.0.0.v1469197024144
 !SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-07-22 09:17:05.966
 !MESSAGE To: epp.package.java [4.6.0,4.7.0)
+!SESSION 2016-07-22 11:09:19.735 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\Alan\Downloads\programming\java\randomProjects\githubTutorial\hello-world-java -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-07-22 11:09:36.015
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Alan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.director 2 10054 2016-07-22 11:09:46.983
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2016-07-22 11:09:46.983
+!MESSAGE Software being installed: artificial_root 1.0.0.v1469203785161
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-07-22 11:09:46.983
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-07-22 11:09:46.984
+!MESSAGE Eclipse IDE for Java Developers 4.5.0.20150621-1200 (epp.package.java 4.5.0.20150621-1200)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-07-22 11:09:46.984
+!MESSAGE Eclipse IDE for Java Developers 4.6.0.20160613-1800 (epp.package.java 4.6.0.20160613-1800)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-07-22 11:09:46.984
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-07-22 11:09:46.984
+!MESSAGE From: artificial_root 1.0.0.v1469203785161
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-07-22 11:09:46.984
+!MESSAGE To: epp.package.java [4.5.0,4.6.0)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-07-22 11:09:46.984
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-07-22 11:09:46.984
+!MESSAGE From: artificial_root 1.0.0.v1469203785161
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-07-22 11:09:46.984
+!MESSAGE To: epp.package.java [4.6.0,4.7.0)
